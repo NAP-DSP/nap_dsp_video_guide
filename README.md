@@ -335,7 +335,7 @@ w | O | integer | Width of the creative in pixels.
 ext | X | object | Placeholder for bidder-specific extensions to OpenRTB.
 <br>
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 'See the link below for the vast 3.0 specification'  
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `See the link below for the vast 3.0 specification`  
 https://www.iab.com/wp-content/uploads/2015/06/VASTv3_0.pdf
 
 ## Response sample
@@ -368,7 +368,7 @@ https://www.iab.com/wp-content/uploads/2015/06/VASTv3_0.pdf
 Macro | Description
 :---: | :---
 `${AUCTION_PRICE}` | Settlement price using the same currency and units as the bid. BidResponse(Bid.adm) includes a macro that must be replaced by the partner with the price it will be charged.
-[ERRORCODE] | Replaced with one of the error codes listed in 'VAST v3.0-Doc section2.4.2.3.' When the associated error occurs; reserved for error tracking URIs.
+[ERRORCODE] | Replaced with one of the error codes listed in `VAST v3.0-Doc section2.4.2.3.` When the associated error occurs; reserved for error tracking URIs.
 [CONTENTPLAYHEAD] | Replaced with the current time offset “HH:MM:SS.mmm” of the video content.
 [CACHEBUSTING] | Replaced with a random 8-digit number.
 <br>
