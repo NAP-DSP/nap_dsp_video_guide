@@ -362,6 +362,103 @@ https://www.iab.com/wp-content/uploads/2015/06/VASTv3_0.pdf
 	}
 <br>
 
+## ADM sample
+	<?xml version="1.0" encoding="UTF-8"?>
+	<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+		<Ad id="249">
+		<InLine>
+		<AdSystem version="1.0.14">Adpacker_Video</AdSystem>
+		<AdTitle>TEST0101</AdTitle>
+		<Impression><![CDATA[http://adpv1.admixer.co.kr:8080/beacon?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Impression>
+		<Error><![CDATA[http://adpv1.admixer.co.kr:8080/error?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&errcode=[ERRORCODE]&ord=[CACHEBUSTING]]]></Error>
+		<Creatives>
+			<Creative id="1077" sequence="1">
+			<Linear skipoffset="00:00:15">
+			<Duration>00:00:15</Duration>
+			<TrackingEvents>
+				<Tracking event="start"><![CDATA[http://adpv1.admixer.co.kr:8080/start?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bpri=${AUCTION_PRICE}&spri=3.063600&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="firstQuartile"><![CDATA[http://adpv1.admixer.co.kr:8080/firstq?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="midpoint"><![CDATA[http://adpv1.admixer.co.kr:8080/midpoint?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="thirdQuartile"><![CDATA[http://adpv1.admixer.co.kr:8080/thirdq?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="progress" offset="00:00:15"><![CDATA[http://adpv1.admixer.co.kr:8080/view?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="complete"><![CDATA[http://adpv1.admixer.co.kr:8080/complete?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+				<Tracking event="skip"><![CDATA[http://adpv1.admixer.co.kr:8080/skip?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></Tracking>
+			</TrackingEvents>
+			<MediaFiles>
+				<MediaFile delivery="progressive" type="video/mp4" width="1280" height="720"><![CDATA[http://www.adpvideo.com/nasmedia/0912c76003cba4781/720]]></MediaFile>
+			</MediaFiles>
+			<VideoClicks>
+				<ClickThrough><![CDATA[https://youtu.be/test]]></ClickThrough>
+				<ClickTracking><![CDATA[http://adpv1.admixer.co.kr:8080/click?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></ClickTracking>
+			</VideoClicks>
+			<Icons>
+				<Icon program="ad" width="192" height="62" xPosition="left" yPosition="bottom" offset="00:00:00">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/click/CLICK_25px.png]]></StaticResource>
+					<IconClicks>
+						<IconClickThrough><![CDATA[https://youtu.be/test]]></IconClickThrough>
+						<IconClickTracking><![CDATA[http://adpv1.admixer.co.kr:8080/clickicon?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></IconClickTracking>
+					</IconClicks>
+				</Icon>
+				<Icon program="skip_des_15" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:00">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_15_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_14" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:01">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_14_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_13" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:02">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_13_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_12" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:03">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_12_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_11" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:04">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_11_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_10" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:05">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_10_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_9" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:06">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_9_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_8" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:07">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_8_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_7" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:08">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_7_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_6" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:09">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_6_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_5" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:10">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_5_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_4" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:11">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_4_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_3" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:12">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_3_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_2" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:13">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_2_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip_des_1" width="192" height="66" xPosition="right" yPosition="bottom" duration="00:00:01" offset="00:00:14">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip_count/25px/skip_1_25px.png]]></StaticResource>
+				</Icon>
+				<Icon program="skip" width="128" height="95" xPosition="right" yPosition="bottom" offset="00:00:15">
+					<StaticResource creativeType="image/png"><![CDATA[http://cdnet.nasmob.com/adpvideo/icon/skip/skip_25px.png]]></StaticResource>
+					<IconClicks>
+						<IconClickTracking><![CDATA[http://adpv1.admixer.co.kr:8080/skip?ads_id=249&app_key=adpv_1&os=iOS&mime=video/mp4&resolution=1280x720&bitrate=1979280&duration=15&model=null&screen=2&udid=null&udid_use=1&ifa_type=2&dev_ip=123.145.167.11&bidfloor=3.063600&rtb_type=0&billtype=3&imp_id=20200311113200_4_249_123.145.167.11_null_1790881387&bid_id=1790881387&report=1&offset=[CONTENTPLAYHEAD]&ord=[CACHEBUSTING]]]></IconClickTracking>
+					</IconClicks>
+				</Icon>
+			</Icons>
+			</Linear>
+			</Creative>
+		</Creatives>
+		</InLine>
+		</Ad>
+	</VAST>
+<br>
+
 # 3. Substitution Macros
 
 ## Notifications
