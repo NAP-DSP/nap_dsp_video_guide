@@ -191,7 +191,7 @@ dnt | O | integer; optional | Standard “Do Not Track” flag as set in the hea
 lmt | X | integer | “Limit Ad Tracking” signal commercially endorsed (e.g., iOS, Android), where 0 = tracking is unrestricted, 1 = tracking must be limited per commercial guidelines.
 ip | O | string; required | IPv4 address closest to device.
 ipv6 | X | string | IP address closest to device as IPv6.
-devicetype | O | integer; optional | The general type of device.
+devicetype | O | integer; required | The general type of device. (Refer to IAB OpenRTB 2.3 Spec List 5.17)
 make | X | string | Device make (e.g., “Apple”).
 model | O | string; required | Device model (e.g., “iPhone”).
 os | O | string; required | Device operating system (e.g., “iOS”).
