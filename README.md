@@ -7,7 +7,7 @@ This guide for integrating with NAP DSP Video using OpenRTB 2.3, VAST 3.0.
 
 NAP DSP Video uses JSON and the HTTP POST method.
 
-If you have any question about this document, please reach out to adpacker@nasmedia.co.kr.  
+If you have any question about this document, please reach out to nap_dsp@nasmedia.co.kr.  
 <br>
 
 **Note**
