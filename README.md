@@ -1,11 +1,11 @@
-# Adpacker-Video integration guide.
+# NAP DSP Video integration guide.
 
 
 
-This guide for integrating with Adpacker-Video using OpenRTB 2.3, VAST 3.0.  
+This guide for integrating with NAP DSP Video using OpenRTB 2.3, VAST 3.0.  
 (Should there be missing fields or requirements, please default requirements to the spec itself.)
 
-Adpacker-Video uses JSON and the HTTP POST method.
+NAP DSP Video uses JSON and the HTTP POST method.
 
 If you have any question about this document, please reach out to adpacker@nasmedia.co.kr.  
 <br>
