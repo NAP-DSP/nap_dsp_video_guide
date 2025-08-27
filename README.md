@@ -1,4 +1,4 @@
-# NAP DSP Video integration guide.
+# nap dsp Video integration guide.
 
 
 
